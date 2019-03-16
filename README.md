@@ -13,7 +13,7 @@
 编辑工具：PyCharm
 模块导入：BeautifulSoup、re、selenium、csv
 
-#### 爬取结果
+#### 爬取部分结果
 
 
 ![](https://github.com/Brucepk/pk.github.io/blob/master/ms.jpg)
