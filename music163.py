@@ -79,7 +79,7 @@ def get_data():
 
 def download2csv():
     print('保存歌手信息中...请稍后查看')
-    with open('E:\\歌手top50.csv', 'w', newline='', encoding='utf-8') as f:
+    with open('E:\\歌手top50.csv', 'w', newline='', encoding='utf-8-sig') as f:
         fieldnames = ['歌手名字', 'top50歌曲']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
